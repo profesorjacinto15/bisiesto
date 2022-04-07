@@ -2,6 +2,12 @@ package bisiesto;
 
 import java.util.Scanner;
 
+/**
+ * Clase que calcula si un año es bisiesto
+ * @author jacinto
+ *
+ */
+
 public class bisiesto {
 
 	public static boolean esBisiesto (int ano) {
