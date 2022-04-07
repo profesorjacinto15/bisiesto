@@ -9,6 +9,12 @@ import java.util.Scanner;
  */
 
 public class bisiesto {
+	
+	/**
+	 * Metodo que comprueba si un año es o no bisiesto
+	 * @param ano a comprobar si es bisiesto
+	 * @return si es o  no bisiesto
+	 */
 
 	public static boolean esBisiesto (int ano) {
 		if (ano % 4 == 0 && ano % 100 != 0 || ano % 400 == 0) {
